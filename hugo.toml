@@ -1,0 +1,29 @@
+baseURL = 'https://pk-landing-lynx.kowshik.in'
+languageCode = "en"
+defaultContentLanguage = "en"
+title = 'Priyamvada Kowshik'
+theme = 'lynx'
+copyright = "[**Priyamvada Kowshik**](https://pk-landing-lynx.kowshik.in) © 2025, and [**Crafted at Scale**](https://instagram.com/craftedatscale)."
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[params.author]
+  name = "Priyamvada Kowshik"
+  headline = "Journalist | Communications Strategist | Researcher"
+  image = "pk-profile.jpg"
+
+  links = [
+    { writing = { href = "https://pk-wri.kowshik.in", text = "Writing", title = "xyz test" } },
+    { videos  = { href = "https://youtube.com", text = "Videos" } },
+    { instagram = { href = "https://www.instagram.com/foodstories.india", text = "Food Stories India" } },
+    { youtube = { href = "https://www.youtube.com/watch?v=-XjlV236RKU", text = "Why Muga Silk Is So Expensive" } },
+    { instagram = "https://www.instagram.com/priyamvadakowshik" },
+    { linkedin = "https://in.linkedin.com/in/priyamvada-kowshik-881849b" },
+  ]
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
+
