@@ -25,5 +25,5 @@ public_folder: /img
 singletons:
   - name: tiles
     label: List of tiles
-    file: hugo.yaml
-    icon: home
+    file: hugo.toml
+    icon: widget_width
